@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" x:Class="SUM.MainPage"
+             BackgroundColor="#220022">
+
+
+
+
+    <StackLayout Margin="20,50,20,20"
+                 Spacing="0">
+        <!-- Place new controls here -->
+
+        <Label Text="Sejong"
+               Style="{d:StaticResource Header}"/>
+        <Label Text="University"
+               Style="{d:StaticResource Header}"/>
+        <Label Text="Masjid."
+               Style="{d:StaticResource Header}"/>
+
+        <Label Text="Upcoming"
+               Style="{x:StaticResource Header}"
+               FontSize="Title"
+               Margin="0, 40"
+               Opacity=".3"/>
+
+        <StackLayout HorizontalOptions="Center"
+                     VerticalOptions="Center">
+            <!--<Label Text="{Binding NextPrayerNameEn}"
+                   Style="{x:StaticResource Header}"/>
+            <Label Text="{Binding NextPrayerNameEn}"
+                   Style="{x:StaticResource Header}"/>-->
+        </StackLayout>
+
+
+
+    </StackLayout>
+</ContentPage>
